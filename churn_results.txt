@@ -2,29 +2,16 @@ Do not modify this file. It is used for autograding the processed data from the 
 
 Average Churn Probability: 0.1451703414264648
 
-High-Risk Customers:         tenure  monthly_charges  encoded_state
-438   0.299758        -0.079469              0
-3106  0.450450         0.791231              0
-321   0.324873         0.943452              0
-3082  0.726720        -0.323021              0
-1736  0.349989         0.651189              1
-...        ...              ...            ...
-3249  1.480184        -0.018581              1
-3084  0.701605        -0.444797              0
-2577  1.404837        -0.383909              0
-2763  0.375104         0.535501              1
-3069  1.178798         0.693810              1
-
-[293 rows x 3 columns]
+High-Risk Customers: 293
 
 Churn Rate by State:
-   state  churn_rate
-0    ME    0.144928
-1    NH    0.159487
-2    VT    0.130931
+    encoded_state  churn_rate
+0              0    0.144928
+1              1    0.159487
+2              2    0.130931
 
 High-Risk Customers by State:
-   state  high_risk
-0    ME        160
-1    NH        174
-2    VT        149
+    encoded_state  high_risk
+0              0        160
+1              1        174
+2              2        149
